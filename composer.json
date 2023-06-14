@@ -1,0 +1,23 @@
+{
+    "name": "danielkraszlan/demo",
+    "authors": [
+        {
+            "name": "lawrie-m",
+            "email": "lawriemullane@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
